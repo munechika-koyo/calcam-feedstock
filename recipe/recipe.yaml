@@ -21,7 +21,7 @@ build:
   python:
     entry_points:
       - calcam = calcam:start_gui
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -34,7 +34,7 @@ requirements:
     - opencv
     - pyqt
     - scipy
-    - vtk-base >=7,<9.3,!=9.1.*
+    - vtk-base >=7,!=9.1.*
     - h5py
     - triangle
 
