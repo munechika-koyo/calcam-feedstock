@@ -21,7 +21,7 @@ build:
   python:
     entry_points:
       - calcam = calcam:start_gui
-  number: 1
+  number: 2
 
 requirements:
   host:
