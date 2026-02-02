@@ -32,7 +32,7 @@ requirements:
     - python >=${{ python_min }}
     - matplotlib-base
     - opencv
-    - pyqt
+    - pyqt6
     - scipy
     - vtk-base >=7,!=9.1.*
     - h5py
